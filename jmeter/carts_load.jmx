@@ -80,8 +80,10 @@ import java.util;
 
 // -------------------------------------------------------------------------------------
 // Generate the x-dynatrace-test header based on this best practic
+
 // -&gt; https://www.dynatrace.com/support/help/integrations/test-automation-frameworks/how-do-i-integrate-dynatrace-into-my-load-testing-process/
 // -------------------------------------------------------------------------------------
+
 String LTN=JMeterUtils.getProperty(&quot;DT_LTN&quot;);
 if((LTN == null) || (LTN.length() == 0)) {
 	if(vars != null) {
